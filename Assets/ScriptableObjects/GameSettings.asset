@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88afc9c13e60b47ae9aca625989981a1, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  _GroundWidth: 6
+  _GroundHeight: 8
+  _ForwardSpeed: 5
+  _PathWidth: 6
+  _BorderDistance: 0.5
+  _InputSensitivity: 1
+  _BlueMaterial: {fileID: 2100000, guid: 343f4e0fcbd5441e48bcbc1969b96059, type: 2}
+  _OrangeMaterial: {fileID: 2100000, guid: f62f7fcc144144627be561af907fab92, type: 2}
+  _PurpleMaterial: {fileID: 2100000, guid: 49784e2df82134227b520b1ff06bfa64, type: 2}
+  _AddedCubeScaleBounce: 1.5
+  _CubesJumpMaxHeight: 1
+  _AddedCubePlaceDuration: 0.5
+  _RampDuration: 2
+  _BoostSpeedMultiplier: 2.5
+  _BoostDuration: 3
+  _BridgeDuration: 3
