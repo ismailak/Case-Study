@@ -25,18 +25,15 @@ namespace MatchingCubes.Block
         }
 
 
-#if UNITY_EDITOR
-        private void OnValidate()
-        {
-            EditorApplication.delayCall += () =>
-            {
-                CreatBlock();
-            };
-        }
-#endif
+// #if UNITY_EDITOR
+//         private void OnValidate()
+//         {
+//             EditorApplication.delayCall += CreatBlock;
+//         }
+// #endif
 
 
-        private void  CreatBlock()
+        public void  CreatBlock()
         {
             _cubes = new List<List<GameObject>>();
             _childIndex = 0;
